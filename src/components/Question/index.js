@@ -45,7 +45,7 @@ const Question = ({ user }) => {
         </div>
         <input
           type="text"
-          placeholder="Submit your answer here..."
+          placeholder="Enter your answer here..."
           onChange={(e) => setState(e.currentTarget.value)}
           onKeyPress={handleKeypress}
           value={state}
