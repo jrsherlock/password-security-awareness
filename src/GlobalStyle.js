@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         --fontMed: 1.3rem;
         --fontSmall: 1rem;
         --fontMini: 0.8rem;
+        --fontH1: 2.5rem; // New variable for h1 font size
     }
 
     * {
@@ -24,11 +25,11 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
 
         h1 {
-            font-size: var(--fontMed);
+            font-size: var(--fontH1); // Updated to use new variable
             font-weight: 600;
-            color: var(--white);
+            color: var(--medGrey);
             margin: 40px 0px 30px 0;
-          }
+        }
 
         h3 {
             font-size: 1.1rem;
@@ -36,7 +37,7 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         p {
-            font-size: var(--fontSmall);
+            font-size: var(--fontMed);
             color: var(--white);
         }
     }

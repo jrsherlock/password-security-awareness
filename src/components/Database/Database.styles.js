@@ -5,55 +5,57 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   padding: 30px 20px;
 
-  h1 {
-    color: var(--medGrey);
-  }
+  color: #000;
+  font-size: 24px; // Set desired font size here
+  /* You can also use em, rem, or % units as preferred. For example: */
+  /* font-size: 2rem; */
+  /* font-size: 150%; */
+}
 `;
 
 export const Table = styled.table`
-  max-width: var(--maxWidth);
+  width: 100%; // Ensures it takes full width of Wrapper
   border-collapse: collapse;
   overflow: hidden;
   border-radius: 20px;
-  margin: 25px 0;
-  max-width: var(--maxWidth);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
-  @media screen and (max-width: 700px) {
-    font-size: var(--fontSmall);
-    border-radius: 8px;
-  }
+  margin: 25px auto; // Centered table
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Softer shadow
 
   thead tr {
     background-color: var(--darkGrey);
-    border-radius: 20px 0 0 20px;
     color: #ffffff;
     text-align: left;
   }
 
   th,
   td {
-    padding: 12px 15px;
-    border-right: 1px solid #dddddd;
-
-    @media screen and (max-width: 700px) {
-      padding: 3px 3px;
-
-      max-width: 120px;
-      width: 50px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    padding: 16px 15px; // Increased padding for a spacious look
+    border-bottom: 1px solid #dddddd; // Horizontal borders only for a cleaner look
+    font-size: var(--fontMed); // Larger font for readability
   }
 
   th:last-child,
   td:last-child {
-    border-right: 0;
-    max-width: 100%;
+    border-right: none; // Removing the vertical line for the last cell
+  }
+
+  tr {
+    transition: background-color 0.3s ease; // Smooth transition for hover effect
+  }
+
+  tr:hover {
+    background-color: var(--lightGrey); // Hover effect for rows
   }
 
   tr:nth-of-type(even) {
     background-color: #f3f3f3;
+  }
+
+  @media screen and (max-width: 700px) {
+    // Responsive adjustments as necessary
+    th,
+    td {
+      padding: 10px; // Slightly smaller padding for mobile
+    }
   }
 `;

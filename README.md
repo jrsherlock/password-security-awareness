@@ -2,7 +2,7 @@
 This single page game had been thought as part of a "Cyber Security Awareness" course and it aimed to teach how posting pictures on social media can sometimes lead to personal data leaks.
 
 ## Try it
-Live demo available [here](https://camandel.github.io/password-security-awareness/)
+Live demo available [here](https://jrsherlock.github.io/password-security-awareness/)
 
 ## Getting Started
 In the project directory, you can run:
