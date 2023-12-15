@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/password-security-awareness/static/js/main.02f8ff0b.js",
+    "static/media/lance_desk.jpg": "/password-security-awareness/static/media/lance_desk.8f64d926c4eb55f4e8d1.jpg",
+    "static/media/shanti_seattle.jpg": "/password-security-awareness/static/media/shanti_seattle.143a20dcdbefe141b095.jpg",
+    "static/media/glen_birthday.jpg": "/password-security-awareness/static/media/glen_birthday.d57fe398ca54cb640a35.jpg",
+    "static/media/lance_dream.jpg": "/password-security-awareness/static/media/lance_dream.8a7113d9c83ffa010fac.jpg",
+    "static/media/kyle_vegas.jpg": "/password-security-awareness/static/media/kyle_vegas.e19622ca1ef580425f1a.jpg",
+    "static/media/kyle_beach.jpg": "/password-security-awareness/static/media/kyle_beach.0f67d9a4c47202e9554e.jpg",
+    "static/media/kyle_alumiman.jpg": "/password-security-awareness/static/media/kyle_alumiman.27c7e289828b1f4e1f7c.jpg",
+    "static/media/celebration.jpg": "/password-security-awareness/static/media/celebration.3f2ad20fe1fcd6f90835.jpg",
+    "static/media/lance_mom.jpg": "/password-security-awareness/static/media/lance_mom.b189929919666f79023d.jpg",
+    "static/media/spinaltap.jpg": "/password-security-awareness/static/media/spinaltap.d07b1701f7b93d57eebd.jpg",
+    "static/media/glen_stormtrooper.jpg": "/password-security-awareness/static/media/glen_stormtrooper.6355dfd19a9333a48b12.jpg",
+    "static/media/shanti_law.jpg": "/password-security-awareness/static/media/shanti_law.9b57bf304666fc2bb488.jpg",
+    "index.html": "/password-security-awareness/index.html",
+    "main.02f8ff0b.js.map": "/password-security-awareness/static/js/main.02f8ff0b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.02f8ff0b.js"
+  ]
+}
