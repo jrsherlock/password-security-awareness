@@ -3,7 +3,7 @@ const USERS = [
         "id": 1,
         "username": "glen",
         "password_hash": "07a51e3bd6402bc97dea6d7945f014469e2f13a6",
-        "password_hint": "the best band of all time, oldest brother, my age"
+        "password_hint": "the best band of all time + oldest brother, + my age"
     },
     {
         "id": 2,
@@ -22,7 +22,7 @@ const USERS = [
         "id": 4,
         "username": "lance",
         "password_hash": "bfba83ef6dcc009d603f1db8a8600e51d16708e9",
-        "password_hint": "mom's birthdate and my company wifi password"
+        "password_hint": "miami expo date + my company wifi password"
     },
 
 ]
