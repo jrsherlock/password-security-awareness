@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/password-security-awareness/static/js/main.02f8ff0b.js",
+    "main.js": "/password-security-awareness/static/js/main.e2fb7038.js",
     "static/media/lance_desk.jpg": "/password-security-awareness/static/media/lance_desk.8f64d926c4eb55f4e8d1.jpg",
     "static/media/shanti_seattle.jpg": "/password-security-awareness/static/media/shanti_seattle.143a20dcdbefe141b095.jpg",
     "static/media/glen_birthday.jpg": "/password-security-awareness/static/media/glen_birthday.d57fe398ca54cb640a35.jpg",
@@ -14,9 +14,9 @@
     "static/media/glen_stormtrooper.jpg": "/password-security-awareness/static/media/glen_stormtrooper.6355dfd19a9333a48b12.jpg",
     "static/media/shanti_law.jpg": "/password-security-awareness/static/media/shanti_law.9b57bf304666fc2bb488.jpg",
     "index.html": "/password-security-awareness/index.html",
-    "main.02f8ff0b.js.map": "/password-security-awareness/static/js/main.02f8ff0b.js.map"
+    "main.e2fb7038.js.map": "/password-security-awareness/static/js/main.e2fb7038.js.map"
   },
   "entrypoints": [
-    "static/js/main.02f8ff0b.js"
+    "static/js/main.e2fb7038.js"
   ]
 }
