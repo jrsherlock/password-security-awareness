@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Vite output and browser verification
+/dist/
+/test-results/
+/playwright-report/
+/.playwright-mcp/
